@@ -1,0 +1,187 @@
+@import 'cas.css';
+
+.mdi { display: none; }
+
+i.mdi.mdi-eye.reveal-password-icon {
+    display: inline;
+}
+
+.mdc-top-app-bar__row {
+    display: inline;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 75px;
+}
+
+.mdc-top-app-bar__section {
+    display: none;
+}
+
+#banner { 
+   background: #005A43 url("../images/binghamton-university-logo.png") no-repeat left;
+   background-position: 25px 10px;
+   height: 75px;
+   padding: 25px;
+}
+
+@media only screen and (max-width: 855px) {
+  #banner{
+     background: #005A43 url("../images/binghamton-university-logo-sm2.png") no-repeat left;
+     background-position: 25px 10px;
+     height: 75px;
+     padding: 25px;
+   }
+
+  #message { display: none; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1px;
+}
+
+:root {
+    --cas-theme-primary: #005A43;
+    --cas-theme-primary-bg: rgba(241, 225, 79, 0.2);
+    --cas-theme-primary-light: #006d85;
+    --cas-theme-secondary: #74C163;
+    --cas-theme-success: var(--cas-theme-secondary);
+    --cas-theme-danger: var(--mdc-theme-error);
+    --cas-theme-warning: #e6a210;
+    --cas-theme-border-light: 1px solid rgba(0, 0, 0, .2);
+    --cas-theme-twitter-color: #55acee;
+    --cas-theme-vimeo-color: #1ab7ea;
+    --cas-theme-vk-color: #587ea3;
+    --cas-theme-yahoo-color: #720e9e;s
+    --cas-theme-google-color: #CC5445;
+    --cas-theme-facebook-color: #3B5998;
+    --atlassian-theme-primary: #0747a6;
+    --mdc-theme-primary: var(--cas-theme-primary, #153e50);
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 10pt;
+}
+
+#bulinks {
+    text-align: right;
+    list-style: none;
+    font-size: 12px;
+}
+
+#bulinks a:hover {
+    color: #005A43;
+    font-weight: bold;
+}
+
+div#zfa-alert a, div#med-alert a, a:visited, a:active {
+    text-decoration: underline;
+    color: #FFFFFF !important;
+}
+
+div#zfa-alert p, div#med-alert p, .housingalert p {
+    word-break: break-word;
+    white-space: normal;
+}
+
+div#zfa-alert {
+    padding: 1em;
+    height: inherit;
+    width: 100%;
+    background-color: #005A43;
+    color: #fff;
+    font-size: 12pt;
+}
+
+div#med-alert {
+    padding: 1em;
+    height: inherit;
+    width: 100%;
+    background-color: #005A43;
+    color: #fff;
+    font-size: 12pt;
+}
+
+div#alert-time {
+    display: none;
+    color: #000;
+    background-color: #ffbb;
+    font-size: 10pt;
+    padding: 2em;
+    height: inherit;
+    width: 100%;
+}
+
+div#alert {
+    display: none;
+    color: #fff;
+    background-color: #ff4444;
+    font-size: 10pt;
+    padding: 2em;
+    height: inherit;
+    width: 80%;
+}
+
+form#fm1 {
+    padding: 2em;
+}
+
+.mdc-button:hover {
+    background-color: #6BC04B
+}
+
+.mdc-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 0 0 2px #707271;
+}
+
+div#mfaAlert {
+    display: none;
+    color: #5a5f12;
+    background-color: #fff3cd;
+    font-size: 10pt;
+    padding: 2em;
+    height: inherit;
+    width: fit-content;
+}
+
+.bupwlinks a:hover {
+    color: #005A43;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.shplnk a:hover, .mfadlnk a:hover {
+    font-weight: bold;
+}
+
+.piNotice .piNoticeText {
+    display: none;
+    position: relative;
+    background-color: #6BC04B;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    height: inherit;
+    width: inherit;
+}
+
+div#passwordLink {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px;
+    z-index: 1;
+    height: inherit;
+    width: inherit;
+}

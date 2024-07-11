@@ -1,0 +1,48 @@
+.text-center{
+  text-align: center;
+}
+#main-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bing-misc-info{
+  margin-top: 20px;
+}
+#content{
+  width: fit-content;
+  max-height: 70vh;
+  overflow-y: scroll;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.form-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.width{
+  width: 75%;
+}
+#sidebar{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sidebar-con{
+  width: 80%;
+  
+}
+
+@media (min-width: 839px){
+  #content{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px){
+  #cen{
+    margin: 120px 0 5px 0;
+  }
+}

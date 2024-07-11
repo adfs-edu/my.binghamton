@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>BU Login - Binghamton University</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="./normalize.css">
+        <link rel="stylesheet" type="text/css" href="./bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="./material-components-web.css">
+        <link rel="stylesheet" type="text/css" href="./binghamton.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body class="login mdc-typography">
+
+
+        <div>
+            <header id="app-bar" class="mdc-top-app-bar mdc-top-app-bar--fixed mdc-elevation--z4">
+                <nav class="mdc-top-app-bar__row">
+                    <img src="./Binghamton-Uni.jpg" alt="" width="250px">
+                </nav>
+            </header>
+        </div>
+
+
+        <div  class="mdc-drawer-app-content mdc-top-app-bar--fixed-adjust d-flex justify-content-center" style="background-color: #acacaf;">
+            <main role="main" id="main-content" class="container-lg py-4">
+                <div id="content" class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center flex-md-row flex-column mdc-card-content w-lg-50">
+                    <section id="loginForm" class="login-section login-form">
+                        <div class="bing-misc-info">
+                            <div>
+                                <h1 class="text-center" id="cen" style="text-align: center;">
+                                    <i class="mdi mdi-security"></i>
+                                    <span style="display: inline; white-space: normal; color: #005A43; ">Central Authentication Service (CAS)</span>
+                                </h1>
+                            </div>
+                            <div class="alert alert-danger w3-panel w3-red w3-border hidden" id="alert" style="display: none;">
+                                <b id="title"></b>
+                                <p id="description"></p>
+                                <p id="pubDate"></p>
+                            </div>
+                            <div class="alert alert-dark w3-panel w3-pale-yellow w3-border hidden" id="alert-time">
+                                <p id="message1"></p>
+                                <p id="message2"></p>
+                            </div>
+                            <div class="alert w3-panel w3-green w3-border" id="zfa-alert" hidden="">
+                                <p class="mfadlnk"> </p>
+                            </div>
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <div class="alert w3-panel w3-green w3-border" id="med-alert" style="width: 80%;">
+                                    <p class="shplnk">Students, please remember to upload your vaccination proof through the <a href="#" style="text-decoration:underline; color:#fff!important;">Student Health Portal</a>
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="d-flex flex-column justify-content-between m-auto">
+            <div class="form-wrapper">
+                <div class="width">
+                    <form method="post" id="fm1" action="">
+
+                        <h3 class="text-center">
+                            <i class="mdi mdi-security"></i>
+                            <span>Sign in with your Binghamton University <br>BU Computer Account</span>
+                        </h3>
+                        <section class="cas-field my-2=3">
+                            </section>
+
+                        <section class="cas-field my-3">
+                            <div class="mdc-text-field d-flex mdc-ripple-upgraded">
+                                <label for="username" class="mdc-floating-label"><span class="accesskey">U</span>sername: username@binghamton.edu</label>                         </label>
+                                <input class="mdc-text-field__input" id="username" size="25" type="text" accesskey="u" value="" autocomplete="off" name="username">
+                            </div>
+                        </section>
+
+                        <section class="cas-field my-3 mdc-input-group">
+                            <div class="mdc-input-group-field mdc-input-group-field-append">
+                                <div class="mdc-text-field mdc-text-field--with-trailing-icon d-flex caps-check mdc-ripple-upgraded">
+                                    <label for="username" class="mdc-floating-label"><span class="accesskey">P</span>assword:</label>
+                                    <input class="mdc-text-field__input pwd" type="password" id="password" size="25" accesskey="p" autocomplete="off" name="password" value="">
+                                </div>
+                                
+                        </section>
+                        <section class="cas-field my-3">
+                            </section>
+
+                        <section class="cas-field">
+                            <p>
+                                <input type="checkbox" name="rememberMe" id="rememberMe" value="true"><label for="rememberMe">Remember Me</label>
+                            </p>
+                        </section>
+                        <div>
+
+                            <button class="mdc-button mdc-button--raised" name="submit" accesskey="l" type="submit" value="LOGIN">
+                                <span class="mdc-button__label">LOGIN</span>
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                    <hr class="my-4"><div id="pmlinks" class="my-2">
+                    <div>
+                        <br><span class="fa fa-question-circle"></span>
+                        <span class="bupwlinks"><a href="#" target="_blank" style="text-decoration:none; color:#005A43!important;">Forgot your username? </a></span>
+                        <br><span class="bupwlinks"><a href="#" target="_blank" style="text-decoration:none; color:#005A43!important;">Forgot your password? </a></span>
+                    </div>
+                </div>
+                        
+            </div>
+                    </div>
+                    <div id="sidebar">
+                        <div id="sidebar-con">
+                            <div id="bulinks">
+                                <div class="bulinks-content">
+                                    <li><a href="https://binghamton.brightspace.com/d2l/login?noRedirect=1" target="_blank" style="text-decoration:none; color:#005A43!important; font-size:10pt;">Brightspace Guests</a></li>
+                                    <li><a href="https://quikpayasp.com/binghamton/studentaccounts/authorized.do" target="_blank" style="text-decoration:none; color:#005A43!important; font-size:10pt;">QuikPAY - Authorized Payer</a></li>
+                                    <p></p>
+                                </div>
+                            </div>
+        
+                            <div class="sidebar-content">
+                                <p>For security reasons, please <a href="" style="text-decoration:none; color:#005A43!important;">log out</a> and exit your web browser when you are done accessing services that require authentication!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </section>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+    <footer class="py-4 d-flex justify-content-center cas-footer" style="background-color: #acacaf;">
+        <span class="mr-2 d-inline-block">© 2021 Binghamton University - State University of New York</span>
+    </footer>
+
+
+    <script src="./function.js"></script>
+    </body>
+</html>
