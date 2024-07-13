@@ -88,9 +88,9 @@
           transform: translateY(-50%);
 }
 .mdc-button:not(:disabled) {
-  color: #6200ee;
+  color: #005A43;
   /* @alternate */
-  color: var(--mdc-theme-primary, #6200ee);
+  color: var(--mdc-theme-primary, #005A43);
 }
 
 .mdc-button__label + .mdc-button__icon {
@@ -158,13 +158,13 @@ svg.mdc-button__icon {
 }
 .mdc-button--raised:not(:disabled),
 .mdc-button--unelevated:not(:disabled) {
-  background-color: #6200ee;
+  background-color: #005A43;
 }
 @supports not (-ms-ime-align: auto) {
   .mdc-button--raised:not(:disabled),
 .mdc-button--unelevated:not(:disabled) {
     /* @alternate */
-    background-color: var(--mdc-theme-primary, #6200ee);
+    background-color: var(--mdc-theme-primary, #005A43);
   }
 }
 .mdc-button--raised:not(:disabled),
@@ -202,9 +202,9 @@ svg.mdc-button__icon {
   border: 1px solid transparent;
 }
 .mdc-button--outlined:not(:disabled) {
-  border-color: #6200ee;
+  border-color: #005A43;
   /* @alternate */
-  border-color: var(--mdc-theme-primary, #6200ee);
+  border-color: var(--mdc-theme-primary, #005A43);
 }
 
 .mdc-button--touch {
@@ -8236,9 +8236,9 @@ a.mdc-list-item {
 .mdc-text-field--outlined:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__leading,
 .mdc-text-field--outlined:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__notch,
 .mdc-text-field--outlined:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__trailing {
-  border-color: #6200ee;
+  border-color: #005A43;
   /* @alternate */
-  border-color: var(--mdc-theme-primary, #6200ee);
+  border-color: var(--mdc-theme-primary, #005A43);
 }
 .mdc-text-field--outlined .mdc-floating-label--shake {
   -webkit-animation: mdc-floating-label-shake-float-above-text-field-outlined 250ms 1;
@@ -8744,9 +8744,9 @@ a.mdc-list-item {
 .mdc-text-field--textarea:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__leading,
 .mdc-text-field--textarea:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__notch,
 .mdc-text-field--textarea:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__trailing {
-  border-color: #6200ee;
+  border-color: #005A43;
   /* @alternate */
-  border-color: var(--mdc-theme-primary, #6200ee);
+  border-color: var(--mdc-theme-primary, #005A43);
 }
 .mdc-text-field--textarea .mdc-floating-label--shake {
   -webkit-animation: mdc-floating-label-shake-float-above-textarea 250ms 1;
@@ -8884,9 +8884,9 @@ a.mdc-list-item {
 .mdc-text-field--textarea.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-notched-outline__leading,
 .mdc-text-field--textarea.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-notched-outline__notch,
 .mdc-text-field--textarea.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-notched-outline__trailing {
-  border-color: #6200ee;
+  border-color: #005A43;
   /* @alternate */
-  border-color: var(--mdc-theme-primary, #6200ee);
+  border-color: var(--mdc-theme-primary, #005A43);
 }
 
 .mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input {
@@ -9382,7 +9382,7 @@ a.mdc-list-item {
   }
 }
 :root {
-  --mdc-theme-primary: #6200ee;
+  --mdc-theme-primary: #005A43;
   --mdc-theme-secondary: #018786;
   --mdc-theme-background: #fff;
   --mdc-theme-surface: #fff;
@@ -9409,9 +9409,9 @@ a.mdc-list-item {
 }
 
 .mdc-theme--primary {
-  color: #6200ee !important;
+  color: #005A43 !important;
   /* @alternate */
-  color: var(--mdc-theme-primary, #6200ee) !important;
+  color: var(--mdc-theme-primary, #005A43) !important;
 }
 
 .mdc-theme--secondary {
@@ -9553,9 +9553,9 @@ a.mdc-list-item {
 }
 
 .mdc-theme--primary-bg {
-  background-color: #6200ee !important;
+  background-color: #005A43 !important;
   /* @alternate */
-  background-color: var(--mdc-theme-primary, #6200ee) !important;
+  background-color: var(--mdc-theme-primary, #005A43) !important;
 }
 
 .mdc-theme--secondary-bg {
@@ -9565,9 +9565,9 @@ a.mdc-list-item {
 }
 
 .mdc-top-app-bar {
-  background-color: #6200ee;
+  background-color: #005A43;
   /* @alternate */
-  background-color: var(--mdc-theme-primary, #6200ee);
+  background-color: var(--mdc-theme-primary, #005A43);
   color: white;
   display: flex;
   position: fixed;
